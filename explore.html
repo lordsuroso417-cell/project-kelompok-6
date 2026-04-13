@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Explore</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">EUGENVERSE</div>
+  <nav class="menu">
+    <a href="home.html">Home</a>
+    <a class="active">Explore</a>
+    <a href="library.html">Library</a>
+  </nav>
+</header>
+
+<div class="section">
+  <input type="text" id="search" placeholder="Cari Komik..." class="search-box">
+
+  <div class="grid" id="exploreList">
+    <div class="card">
+      <img src="pmu.jpg">
+      <h3>Pick Me Up</h3>
+      <button onclick="addFav('Pick Me Up')">❤️ Favorit</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
